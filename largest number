@@ -1,0 +1,6 @@
+n=int(input())
+if n>99:
+  temp=n%100
+  print(temp)
+else:
+print("Enter the number greater than 99")
