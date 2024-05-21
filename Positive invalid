@@ -1,0 +1,9 @@
+n = int(input("Enter a positive number: "))
+if n <= 0:
+    print("Invalid input")
+else:
+    a, b = 1, 1 
+    while n > 0:
+        print(a)
+        a, b = b, a - b  
+        n -= 1
