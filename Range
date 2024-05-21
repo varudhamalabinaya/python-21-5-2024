@@ -1,0 +1,7 @@
+n = int(input())
+m = int(input())
+tot = 0
+for num in range(n, m + 1):
+    if num % 9 == 0:
+        tot+= num
+print(tot)
