@@ -10,5 +10,7 @@ elif(avg>=70&avg<80):
     print("Grade: C")
 elif(avg>=60&avg<70):
     print("Grade: D")
+elif(avg>=50&avg<60):
+    print("Grade: E")
 else:
-    print("Fail")
+    print("F")
